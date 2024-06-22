@@ -2,23 +2,33 @@
 #include "grid.h"
 #include "blocks.cpp"
 
-class Game{
+class Game
+{
 public:
-Game();
-Block GetRandomBlock();
-std::vector<Block> GetAllBlocks();
-void Draw();
-void HandleInput();
-void MoveBlockLeft();
-void MoveBlockRight();
-void MoveBlockDown();
-Grid grid;
+    Game();
+    ~Game();
+    void Draw();
+    void HandleInput();
+    void MoveBlockDown();
+    bool gameOver;
+    int score;
+    Music music;
 
 private:
-Block GetRandomBlock();
-bool IsBlockOutside();
-void RotateBlock();
-std::vector<Block> blocks;
-Block currentBlock;
-Block nextBlock;
+    void MoveBlockLeft();
+    void MoveBlockRight();
+    Block GetRandomBlock();
+    std::vector<Block> GetAllBlocks();
+    bool IsBlockOutside();
+    void RotateBlock();
+    void LockBlock();
+    bool BlockFits();
+    void Reset();
+    void UpdateScore(int linesCleared, int moveDownPoints);
+    Grid grid;
+    std::vector<Block> blocks;
+    Block currentBlock;
+    Block nextBlock;
+    Sound rotateSound;
+    Sound clearSound;
 };
