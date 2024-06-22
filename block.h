@@ -3,23 +3,23 @@
 #include <map>
 #include "position.h"
 #include "colors.h"
-#include "raylib.h"
 
-class Block{
-    public:
+class Block
+{
+public:
     Block();
-    void Draw();
-    void Move(int rows,int columns);
+    void Draw(int offsetX, int offsetY);
+    void Move(int rows, int columns);
     std::vector<Position> GetCellPositions();
     void Rotate();
+    void UndoRotation();
     int id;
-    std::map<int,std::vector<Position>> cells;
+    std::map<int, std::vector<Position>> cells;
 
-    private:
+private:
     int cellSize;
-    int rotationSize;
+    int rotationState;
     std::vector<Color> colors;
     int rowOffset;
     int columnOffset;
-    
 };
