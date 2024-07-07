@@ -69,11 +69,9 @@ The objective of Tetris is to manipulate the falling tetrominoes to create horiz
 
 - **Left Arrow**: Move tetromino left
 - **Right Arrow**: Move tetromino right
-- **Down Arrow**: Soft drop
+- **Down Arrow**: Hard drop
 - **Up Arrow**: Rotate tetromino
-- **Space**: Hard drop
-- **P**: Pause/Resume game
-- **R**: Restart game
+- **Left Arrow** (after the game ends): Restarting the game
 
 ## Acknowledgments
 
