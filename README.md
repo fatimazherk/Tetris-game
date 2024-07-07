@@ -77,6 +77,7 @@ The objective of Tetris is to manipulate the falling tetrominoes to create horiz
 
 - [Raylib](https://www.raylib.com/) - A simple and easy-to-use library to enjoy videogames programming.
 - Tetris concept and design originally by Alexey Pajitnov.
+- Dr Murk Marvi (Lecturer at NEDUET, Karachi) for her guidance and valuable feedback throughout the project.
 
 
 ## For Additional Inquiries:
