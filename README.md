@@ -2,10 +2,10 @@
 
 Welcome to the Tetris game project built with Raylib! This project is a classic Tetris game implemented using the Raylib library for graphics and game development. Enjoy the nostalgic gameplay of Tetris with a modern touch.
 ## Made By:
-Fatimaa Khan (CT-23024),
-Rania Imran (CT-23005),
-Musfirah Waseem (CT-23014),
-Amna Adnan (CT-23020)
+Fatimaa Khan,
+Rania Imran,
+Musfirah Waseem,
+Amna Adnan.
 
 
 ![Tetris Image](https://ychef.files.bbci.co.uk/624x351/p0102gs2.jpg)
